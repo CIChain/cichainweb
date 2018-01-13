@@ -1,0 +1,46 @@
+.ie9 {
+  .main-width {
+    width: 1000px;
+  }
+  .swiper-slide {
+    .con-box {
+      display: inline-block;
+      padding-top: 20%;
+    }
+  }
+
+  .map-box {
+    ul {
+      width: 100%;
+      display: inline-block;
+    }
+
+    li {
+      width: 16%;
+      float: left;
+
+      dl:before {
+        top: 0;
+        height: .1rem;
+      }
+    }
+    li.f dl:before {
+      top: auto;
+      bottom: -0.1rem;
+    }
+  }
+
+  .footer-box {
+    ul:after {
+      content: '';
+      width: 1000px;
+      height: 1px;
+      visibility: hidden;
+      display: inline-block;
+    }
+    ul li {
+      width: 16.6667%;
+      float: left;
+    }
+  }
+}
